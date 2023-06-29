@@ -1,0 +1,112 @@
+
+Computer
+********
+
+
+Summary
+-------
+
+-Computer-
+Processor		: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz
+Memory		: 16336MB
+Machine Type		: Desktop
+Operating System		: Ubuntu 22.04.2 LTS
+-Display-
+Resolution		: 4480x1440 pixels
+OpenGL Renderer		: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+X11 Vendor		: The X.Org Foundation
+-Audio Devices-
+Audio Adapter		: HDA-Intel - HDA Intel PCH
+Audio Adapter		: HDA-Intel - HDA NVidia
+-SCSI Disks-
+ATA Samsung SSD 860
+ATA WDC WD10EARX-00N
+
+Operating System
+----------------
+
+-Version-
+Kernel		: Linux 5.19.0-46-generic (x86_64)
+Version		: #47~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Jun 21 15:35:31 UTC 2
+C Library		: GNU C Library / (Ubuntu GLIBC 2.35-0ubuntu3.1) 2.35
+Distribution		: Ubuntu 22.04.2 LTS
+-Current Session-
+Computer Name		: milos-System-Product-Name
+User Name		: milos (milos)
+Language		: LC_CTYPE=en_US.UTF-8;LC_NUMERIC=sr_RS;LC_TIME=sr_RS;LC_COLLATE=en_US.UTF-8;LC_MONETARY=sr_RS;LC_MESSAGES=en_US.UTF-8;LC_PAPER=sr_RS;LC_NAME=sr_RS;LC_ADDRESS=sr_RS;LC_TELEPHONE=sr_RS;LC_MEASUREMENT=sr_RS;LC_IDENTIFICATION=sr_RS (en_US.UTF-8)
+Home Directory		: /home/milos
+-Misc-
+Uptime		: 1 hour 41 minutes
+Load Average		: 1,88, 2,04, 1,75
+Available entropy in /dev/random		: 256 bits (medium)
+
+Processor
+---------
+
+-Processors-
+Package Information	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	0	0:0	3900,00 MHz	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	1	0:1	3900,00 MHz	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	2	0:2	3900,00 MHz	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	3	0:3	3900,00 MHz	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	4	0:0	3900,00 MHz	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	5	0:1	3900,00 MHz	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	6	0:2	3900,00 MHz	
+Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz	7	0:3	3900,00 MHz	
+
+Memory
+------
+
+-Memory-
+MemTotal	Total Memory	16336236 KiB	
+MemFree	Free Memory	8119468 KiB	
+MemAvailable		10699908 KiB	
+Buffers		162216 KiB	
+Cached		3398860 KiB	
+SwapCached	Cached Swap	2344 KiB	
+Active		1390656 KiB	
+Inactive		5980840 KiB	
+Active(anon)		84256 KiB	
+Inactive(anon)		4543636 KiB	
+Active(file)		1306400 KiB	
+Inactive(file)		1437204 KiB	
+Unevictable		16 KiB	
+Mlocked		16 KiB	
+SwapTotal	Virtual Memory	31999996 KiB	
+SwapFree	Free Virtual Memory	31944700 KiB	
+Zswap		0 KiB	
+Zswapped		0 KiB	
+Dirty		49864 KiB	
+Writeback		0 KiB	
+AnonPages		3809460 KiB	
+Mapped		2066968 KiB	
+Shmem		823456 KiB	
+KReclaimable		172172 KiB	
+Slab		422496 KiB	
+SReclaimable		172172 KiB	
+SUnreclaim		250324 KiB	
+KernelStack		22208 KiB	
+PageTables		52628 KiB	
+NFS_Unstable		0 KiB	
+Bounce		0 KiB	
+WritebackTmp		0 KiB	
+CommitLimit		40168112 KiB	
+Committed_AS		12848728 KiB	
+VmallocTotal		-1 KiB	
+VmallocUsed		131912 KiB	
+VmallocChunk		0 KiB	
+Percpu		9600 KiB	
+HardwareCorrupted		0 KiB	
+AnonHugePages		0 KiB	
+ShmemHugePages		0 KiB	
+ShmemPmdMapped		0 KiB	
+FileHugePages		0 KiB	
+FilePmdMapped		0 KiB	
+HugePages_Total		0	
+HugePages_Free		0	
+HugePages_Rsvd		0	
+HugePages_Surp		0	
+Hugepagesize		2048 KiB	
+Hugetlb		0 KiB	
+DirectMap4k		734484 KiB	
+DirectMap2M		16007168 KiB	

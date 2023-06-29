@@ -1,0 +1,3 @@
+clang++ layouts.cpp -E > ../bin/layouts_tmp.cpp &&  clang++ -cc1 -fdump-record-layouts ../bin/layouts_tmp.cpp > ../bin/out.txt
+
+clang++ main.cpp -std=c++23 -O3 -isystem benchmark/include -Lbenchmark/build/src -lbenchmark -lpthread -o ../bin/mybenchmark && ../bin/mybenchmark
