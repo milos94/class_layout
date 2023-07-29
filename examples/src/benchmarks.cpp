@@ -123,7 +123,7 @@ static void sort_good_data(benchmark::State& state)
     }
 }
 
-static void sort_bad_data(benchmark::State& state)
+static void sort_sinful_data(benchmark::State& state)
 {
     auto const data = generate_data<sinful_data>(state.range(0));
     for(auto _ : state)
@@ -161,6 +161,7 @@ static void accumulate_sinful_data(benchmark::State& state)
     }
 }
 
+/*
 BENCHMARK(generate_good_data)->Apply(CustomArguments)->Iterations(100);
 BENCHMARK(generate_sinful_data)->Apply(CustomArguments)->Iterations(100);
 
@@ -172,5 +173,19 @@ BENCHMARK(sort_bad_data)->Apply(CustomArguments)->Iterations(100);
 
 BENCHMARK(accumulate_good_data)->Apply(CustomArguments)->Iterations(100);
 BENCHMARK(accumulate_sinful_data)->Apply(CustomArguments)->Iterations(100);
+*/
+
+BENCHMARK(generate_good_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+BENCHMARK(generate_sinful_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+
+BENCHMARK(for_each_good_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+BENCHMARK(for_each_sinful_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+
+BENCHMARK(sort_good_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+BENCHMARK(sort_sinful_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+
+BENCHMARK(accumulate_good_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+BENCHMARK(accumulate_sinful_data)->DenseRange(100, 1'000'000, 100)->Iterations(100);
+
 
 BENCHMARK_MAIN();
